@@ -1,7 +1,7 @@
 
 object HelloWorld
 {
-   def main(ags:Array[String])
+   def main(args:Array[String])
    {
      println(convert(35));
      println(volume(5));
