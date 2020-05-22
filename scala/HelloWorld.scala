@@ -15,9 +15,10 @@ object HelloWorld
    //question 3
    def price(y:Int) : Double = {
 
-     var discount:Double=24.95*0.6*y;
-     var shipping : Double=3*50 + 0.75*(y-50);
-     var sum : Double= discount+shipping;
+     var total:Double=y*24.95;
+     var discount:Double=y*0.4;
+     var shipping : Double=3*y + 0.75*(y-50);
+     var sum : Double= total-discount+shipping;
      return sum;
 
    }
