@@ -8,9 +8,9 @@ object assignment2 {
     //println(salary(40,20));
     //println(tax(salary(40,20)));
     println(income(40,20));
-    println(people(20));
-    println(charge(20));
-    println(cost(20));
+    //println(people(20));
+    //println(charge(20));
+    //println(cost(20));
     println(profit(20)); 
   }
   
