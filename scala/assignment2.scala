@@ -7,11 +7,13 @@ object assignment2 {
     //println(OT(20));
     //println(salary(40,20));
     //println(tax(salary(40,20)));
-    println(income(40,20));
+    println("total income is: "+income(40,20));
     //println(people(20));
     //println(charge(20));
     //println(cost(20));
     println(profit(20)); 
+    println(profit(10));
+    println(profit(15));
   }
   
   //question 1
